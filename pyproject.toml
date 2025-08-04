@@ -1,0 +1,25 @@
+[project]
+name = "rapportsjurys"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Abdelwakil Benabdi"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "psycopg (>=3.2.9,<4.0.0)",
+    "langchain (==0.3.13)",
+    "langchain-community (==0.3.13)",
+    "langchain-openai (==0.2.14)",
+    "langchain-ollama (==0.2.2)",
+    "langchain-postgres (==0.0.12)",
+    "openai (==1.58.1)",
+    "pydantic (>=2.11.7,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
